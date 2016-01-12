@@ -1,9 +1,17 @@
 /*================ GENERAL ================*/
+* {
+	box-sizing:border-box;
+}
 
-body, ul, h1 {
+html, body, ul, h1 {
 	margin: 0;
 	font-family: sans-serif;
 	text-align: center;
+	height: 100%;
+}
+
+.container {
+	height: 94%;
 }
 
 .container, .down-page {
@@ -29,7 +37,7 @@ a {
 /*================ HEADER ================*/
 header {
 	position: relative;
-	height: 200px;
+	height: 120px;
 }
 
 header li a {
@@ -45,12 +53,18 @@ header nav {
 nav li:not(:last-child) {
 	margin-right: 20px;
 }
+
+.fa-th {
+	font-size: 1.5em;
+}
 /*================ END - HEADER ================*/
 /*================ SECTION ================*/
+section {
+	padding-top: 100px;
+}
 
 h1 {
 	font-size: 5.5em;
-	font-weight: normal;
 	line-height: 0.7;
 }
 
@@ -73,7 +87,7 @@ h1 {
 .language {
 	margin: 0; 
 	color: #4285f4;
-	padding-left: 170px;
+	padding-left: 220px;
 }
 
 form {
@@ -82,8 +96,16 @@ form {
 
 form p {
 	margin-bottom: 40px;
+	position: relative;
 }
 
+.fa-microphone {
+	position: relative;
+	left: -30px;
+	color: #4285f4;
+	font-size: 1.4em;
+	vertical-align: middle;
+}
 .search {
 	border: 1px solid #b9b9b9;
 	height: 40px;
@@ -93,10 +115,14 @@ form p {
 .button {
 	background-color: #f4f4f4;
 	border: none;
-	padding: 15px;
-	border-radius: 5px;
+	padding: 10px 15px;
+	border-radius: 2px;
 	font-weight: bold;
 	color: #666666;
+}
+
+.button:not(:last-child) {
+	margin-right: 5px;
 }
 
 /*================ END - SECTION ================*/
@@ -126,4 +152,11 @@ footer li:not(:last-child) {
 a:hover {
 	text-decoration: underline;
 }
+
+.button:hover {
+	color: #272727;
+	border: 1px solid #c6c6c6;	
+	box-sizing:border-box;
+}
+
 /*================ END - PSEUDO-CLASSES ================*/
