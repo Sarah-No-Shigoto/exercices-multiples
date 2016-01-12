@@ -1,0 +1,28 @@
+/*================ GENERAL ================*/
+
+body {
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button, footer {
+	background-color: #f2f2f2;
+}
+
+/*================ END - GENERAL ================*/
+/*================ HEADER ================*/
+
+/*================ END - HEADER ================*/
+/*================ FOOTER ================*/
+footer {
+	border-top: #e4e4e4;
+}
+/*================ END - FOOTER ================*/
