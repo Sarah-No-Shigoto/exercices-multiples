@@ -81,7 +81,9 @@ h1 {
 }
 
 .green {
+	display: inline-block;
 	color: #34a853;
+	transform: rotate(-20deg);
 }
 
 .language {
@@ -114,7 +116,7 @@ form p {
 
 .button {
 	background-color: #f4f4f4;
-	border: none;
+	border: 0;
 	padding: 10px 15px;
 	border-radius: 2px;
 	font-weight: bold;
@@ -157,6 +159,7 @@ a:hover {
 	color: #272727;
 	border: 1px solid #c6c6c6;	
 	box-sizing:border-box;
+	box-shadow: 0 1px 2px #f1f1f1;
 }
 
 /*================ END - PSEUDO-CLASSES ================*/
